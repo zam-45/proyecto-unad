@@ -1,6 +1,7 @@
 #-------------------------------------------------------------------
 # Universidad Nacional Abierta y a Distancia - UNAD
 # Curso: Programación (213023)
+# Estudiante: Jeferson Rangel
 # Fase 4 - Componente práctico
 # Archivo: reserva.py
 # Descripción:
