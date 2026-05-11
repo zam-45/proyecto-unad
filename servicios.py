@@ -41,9 +41,9 @@ class Servicio:
         )
 
 
-# =========================================================
+# ************
 # EXCEPCIONES
-# =========================================================
+# ************
 
 class ServicioError(Exception):
     pass
@@ -53,9 +53,9 @@ class ServicioNoDisponibleError(Exception):
     pass
 
 
-# =========================================================
+# ****************
 # RESERVA DE SALA
-# =========================================================
+# *****************
 
 class ReservaSala(Servicio):
 
@@ -127,9 +127,9 @@ class AlquilerEquipo(Servicio):
         return "Equipo: " + self.__tipo
 
 
-# =========================================================
+# **********************
 # ASESORIA ESPECIALIZADA
-# =========================================================
+# **********************
 
 class AsesoriaEspecializada(Servicio):
 
@@ -163,9 +163,9 @@ class AsesoriaEspecializada(Servicio):
         )
 
 
-# =========================================================
+# ***********************
 # METODOS SOBRECARGADOS
-# =========================================================
+# ***********************
 
 class ServicioExtra(Servicio):
 
