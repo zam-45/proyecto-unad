@@ -16,7 +16,7 @@
 
 from datetime import datetime
 from cliente import Cliente
-from servicio import Servicio, AlquilerEquipo
+from servicios import Servicio, AlquilerEquipo
 from excepciones import (ReservaError, ServicioNoDisponibleError,
                          CalculoCostoError, SoftwareFJError)
 from logger_config import registrar_evento, registrar_error
