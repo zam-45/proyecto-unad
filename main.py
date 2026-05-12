@@ -17,7 +17,7 @@
 
 import logging
 from cliente import Cliente
-from servicio import ReservaSala, AlquilerEquipo, AsesoriaTecnica
+from servicios import ReservaSala, AlquilerEquipo, AsesoriaTecnica
 from reserva import Reserva
 from excepciones import (SoftwareFJError, ClienteInvalidoError,
                          ServicioInvalidoError, ReservaError)
